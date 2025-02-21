@@ -4,9 +4,9 @@ from PIL import Image
 import numpy as np
 
 # Load models (ensure the paths are correct)
-chest_model = load_model('C:/Users/sarve/HackAI/AI-1/Dpl/chest_disease_detection_model.h5')
-tb_model = load_model('C:/Users/sarve/HackAI/AI-1/Dpl/tb_disease_detection_model.h5')
-eye_model = load_model('C:/Users/sarve/HackAI/AI-1/Dpl/retinal_disease_detection_model.h5')
+chest_model = load_model('chest_disease_detection_model.h5')
+tb_model = load_model('tb_disease_detection_model.h5')
+eye_model = load_model('retinal_disease_detection_model.h5')
 
 
 # eye_model = load_model('eye_model.h5')
